@@ -1,0 +1,19 @@
+Documentation
+-------------
+
+Author: Sunny Shah
+
+Title: WordJumble
+
+Description: This program takes an input string (jumbled word) and unjumbles it by finding all of the possible words that could stem from it. For example, dog -> dog, god, do, go. 
+
+Implementation: This program has time complexity of O(n) and space complexity of O(n). 
+
+The time complexity stems from the fact that the program traverses through all elements in the iSpell word list 1 time. Specifically, it checks each element for certain characteristics that would indicate it being an "unjumbled" element; whether it has the same characters (at <= frequency) as the word to be unjumbled. 
+
+The space complexity comes from the fact that the iSpell word list is stored in a Python list; this takes n space.
+
+To Run:
+navigate to folder "WordJumble"
+python main.py [your word here]
+
