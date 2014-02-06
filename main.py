@@ -1,7 +1,6 @@
 import sys
 import itertools
 from wordlist import Wordlist
-from combinations import Combinations
 
 word_list = Wordlist()
 
